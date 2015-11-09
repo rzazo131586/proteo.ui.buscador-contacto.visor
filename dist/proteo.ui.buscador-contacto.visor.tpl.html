@@ -1,8 +1,20 @@
-<div>
-    <!-- <div id="grid1" ng-grid="dataContact" ui-grid-edit class="gridStyle"></div> -->
-    <div ng-repeat="contact in datacontact">
-    	<div ui-sref="#">
-    		{{contact.name}}
-    	</div>
-    </div>
+<div class="buscador-personas-container">
+	<h4>LISTADO de Contactos</h4>
+	<div ng-repeat="contact in contactsFiltered" class="col-md-12 ng-scope">
+		<div class="panel account-item">
+			<div class="item-body clearfix">
+				<div class="pull-left">
+					<div class="account-name ng-binding">
+						{{contact.name}}
+					</div>
+					<div class="account-holder ng-binding">{{contact.company.name}}</div>
+				</div>
+				<div class="pull-right text-right">
+					<div class="account-name ng-binding">
+						{{contact.username}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
