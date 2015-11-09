@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-angular.module('proteo.ui.buscador-contacto.visor').directive('buscadorContactoVisorDirective',function() {
+angular.module('proteo.ui.buscador-contacto.visor').directive('buscadorContacto.visor',function() {
   return {
     scope 		: 	{},
     restrict	: 	"E",
