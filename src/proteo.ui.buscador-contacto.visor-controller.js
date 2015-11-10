@@ -1,3 +1,4 @@
+/* Buscador-Contacto.VISOR CONTROLLER */
 (function () {
     'use strict';
 
@@ -6,3 +7,4 @@
 	});
 
 }());
+/* END Buscador-Contacto.VISOR CONTROLLER */

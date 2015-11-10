@@ -1,3 +1,5 @@
+/* Buscador-Contacto.VISOR DIRECTIVE */
+
 (function () {
     'use strict';
 
@@ -13,3 +15,4 @@
 	});
 
 }());
+/* END Buscador-Contacto.VISOR DIRECTIVE */

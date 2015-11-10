@@ -1,3 +1,4 @@
+/* Buscador-Contacto.VISOR MODULE */
 (function () {
 
     'use strict';	
@@ -7,3 +8,4 @@
 			// custom code 
 	}]);
 }());
+/* END Buscador-Contacto.VISOR MODULE */

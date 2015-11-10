@@ -1,3 +1,4 @@
+/* Buscador-Contacto.VISOR SERVICE */
 (function () {
     'use strict';
 
@@ -14,3 +15,4 @@
 	});
 
 }());
+/* END Buscador-Contacto.VISOR SERVICE */

@@ -1,3 +1,4 @@
+/* Buscador-Contacto.VISOR MODULE */
 (function () {
 
     'use strict';	
@@ -7,6 +8,9 @@
 			// custom code 
 	}]);
 }());
+/* END Buscador-Contacto.VISOR MODULE */
+
+/* Buscador-Contacto.VISOR CONTROLLER */
 (function () {
     'use strict';
 
@@ -15,6 +19,9 @@
 	});
 
 }());
+/* END Buscador-Contacto.VISOR CONTROLLER */
+
+/* Buscador-Contacto.VISOR DIRECTIVE */
 
 (function () {
     'use strict';
@@ -31,6 +38,9 @@
 	});
 
 }());
+/* END Buscador-Contacto.VISOR DIRECTIVE */
+
+/* Buscador-Contacto.VISOR SERVICE */
 (function () {
     'use strict';
 
@@ -47,3 +57,4 @@
 	});
 
 }());
+/* END Buscador-Contacto.VISOR SERVICE */
