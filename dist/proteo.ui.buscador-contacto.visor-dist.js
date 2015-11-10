@@ -33,7 +33,7 @@
 			showContacts : '='
 		},
 	    controller 	: 	'buscadorContactoVisorCtrl',
-	    templateUrl : 	'./bower_components/proteo.ui.buscador-contacto.visor/dist/proteo.ui.buscador-contacto.visor.tpl.html',
+	    templateUrl : 	'src/proteo.ui.buscador-contacto.visor.tpl.html',
 	  };
 	});
 
