@@ -1,31 +1,17 @@
 /* Buscador-Contacto.VISOR MODULE */
-(function () {
-
-    'use strict';	
-
 	angular.module('proteo.ui.buscador-contacto.visor',['pascalprecht.translate'])
 		.config(['$translateProvider', function ($translateProvider) {
 			// custom code 
 	}]);
-}());
 /* END Buscador-Contacto.VISOR MODULE */
 
 /* Buscador-Contacto.VISOR CONTROLLER */
-(function () {
-    'use strict';
-
 	angular.module('proteo.ui.buscador-contacto.visor').controller('buscadorContactoVisorCtrl', function($scope,$http) {
 		console.log("buscadorContactoVisorCtrl");
 	});
-
-}());
 /* END Buscador-Contacto.VISOR CONTROLLER */
 
 /* Buscador-Contacto.VISOR DIRECTIVE */
-
-(function () {
-    'use strict';
-
 	angular.module('proteo.ui.buscador-contacto.visor').directive('buscadorContacto.visor',function() {
 	  return {
 	    restrict	: 	"E",
@@ -36,27 +22,12 @@
 	    templateUrl : 	'src/proteo.ui.buscador-contacto.visor.tpl.html',
 	  };
 	});
-
-}());
 /* END Buscador-Contacto.VISOR DIRECTIVE */
 
 /* Buscador-Contacto.VISOR SERVICE */
-(function () {
-    'use strict';
-
 	angular.module('proteo.ui.buscador-contacto.visor').service('visorService', function () {
-
-		/*
-		this.getFullname = function(customer){return customer.firstName+ ' ' + customer.lastName;};
-
-		this.basePath={};
-		this.setBasePath = function(path) {basePath=path;};
-		this.getBasePath = function() { return basePath;}
-		*/
-	
+		// Code of Service
 	});
-
-}());
 /* END Buscador-Contacto.VISOR SERVICE */
 angular.module('proteo.ui.buscador-contacto.visor').run(['$templateCache', function($templateCache) {
   'use strict';
