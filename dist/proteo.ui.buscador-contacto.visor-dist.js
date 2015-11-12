@@ -29,7 +29,7 @@
 		// Code of Service
 	});
 /* END Buscador-Contacto.VISOR SERVICE */
-angular.module('proteo.ui.buscador-contacto.visor').run(['$templateCache', function($templateCache) {
+angular.module('proteo.ui.buscador-contacto').run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('src/proteo.ui.buscador-contacto.visor.tpl.html',
